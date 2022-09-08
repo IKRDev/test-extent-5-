@@ -1,11 +1,11 @@
-class MinMaxtst {
+class MinMax {
     constructor() {
     }
     
     getInfo() {
         return {
             "id": "test",
-            "name": "MinMaxtest",
+            "name": "Min Max Blocks",
             "blocks": [
                         {
                             "opcode": "min",
@@ -50,4 +50,4 @@ class MinMaxtst {
     }
 }
 
-Scratch.extensions.register(new MinMaxtst())
+Scratch.extensions.register(new MinMax())
